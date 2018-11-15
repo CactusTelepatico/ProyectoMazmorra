@@ -636,6 +636,182 @@ public class Dungeon {
 				}
 				
 			}
+			while(x==3 && y==3)
+			{
+			/*	System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+				System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+				System.out.println("║  ║ ║           ║");
+				System.out.println("║  ╚═╝           ╚");
+				System.out.println("║     @   "+key+"      █ ");
+				System.out.println("║      ╔═╗       ╔ ");
+				System.out.println("╚══════╝ ╚═══════╝"); 
+			        // Posiciones @ ║ @ @ @ @ @ @ @ @║  */
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║Introduce un número de los que aparecen arriba, si no, no puedo entenderte :o");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║     @   "+key+"      █ ");
+					System.out.println("║      ╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║
+				}
+				else if(mov ==0)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║No hay nada con lo que interactuar :I");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║     @   "+key+"      █ ");
+					System.out.println("║      ╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║	
+				}
+				else if(mov==1)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║   @     "+key+"      █ ");
+					System.out.println("║      ╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║
+					y--;
+				}
+				else if(mov==2)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║         "+key+"      █ ");
+					System.out.println("║     @╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║ 
+					x++;
+				}
+				else if(mov==3)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║       @ "+key+"      █ ");
+					System.out.println("║      ╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║
+					y++;
+				}
+				else if(mov==4)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║");
+					System.out.println("║  ╚═╝@          ╚");
+					System.out.println("║         "+key+"      █ ");
+					System.out.println("║      ╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║
+					x--;
+				}
+			}
+			while(x==4 && y==3)
+			{
+			/*	System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+				System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+				System.out.println("║  ║ ║           ║");
+				System.out.println("║  ╚═╝           ╚");
+				System.out.println("║         "+key+"      █ ");
+				System.out.println("║     @╔═╗       ╔ ");
+				System.out.println("╚══════╝ ╚═══════╝"); 
+			        // Posiciones @ ║ @ @ @ @ @ @ @ @║ 			*/
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║Introduce un número de los que aparecen arriba, si no, no puedo entenderte :o");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║         "+key+"      █ ");
+					System.out.println("║     @╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║
+				}
+				else if(mov ==0)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║No hay nada con lo que interactuar :I");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║         "+key+"      █ ");
+					System.out.println("║     @╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║	
+				}
+				else if(mov==1)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║         "+key+"      █ ");
+					System.out.println("║   @  ╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║
+					y--;
+				}
+				else if(mov==2 || mov==3)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║Ay! *Te estampas con la pared*...creo que mejor vamos para otro lado");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║         "+key+"      █ ");
+					System.out.println("║     @╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║	
+						wall++;
+						if(wall==5)
+						{
+							System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+							System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+							System.out.println("║  ║ ║           ║Ay! *Te estampas con la pared por última vez, has muerto");
+							System.out.println("║  ╚═╝           ╚");
+							System.out.println("║         "+key+"      █ ");
+							System.out.println("║     @╔═╗       ╔ ");
+							System.out.println("╚══════╝ ╚═══════╝");
+							System.out.println("  ▄▀▀▀▀▄    ▄▀▀█▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄▄▄      ▄▀▀▀▀▄   ▄▀▀▄ ▄▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▄▀▀▀▄ ");
+							System.out.println(" █         ▐ ▄▀ ▀▄ █  █ ▀  █ ▐  ▄▀   ▐     █      █ █   █    █ ▐  ▄▀   ▐ █   █   █ ");
+							System.out.println(" █    ▀▄▄    █▄▄▄█ ▐  █    █   █▄▄▄▄▄      █      █ ▐  █    █    █▄▄▄▄▄  ▐  █▀▀█▀  ");
+							System.out.println(" █     █ █  ▄▀   █   █    █    █    ▌      ▀▄    ▄▀    █   ▄▀    █    ▌   ▄▀    █  ");
+							System.out.println(" ▐▀▄▄▄▄▀ ▐ █   ▄▀  ▄▀   ▄▀    ▄▀▄▄▄▄         ▀▀▀▀       ▀▄▀     ▄▀▄▄▄▄   █     █   ");
+						    System.out.println(" ▐         ▐   ▐   █    █     █    ▐                            █    ▐   ▐     ▐   ");
+							System.out.println("                   ▐    ▐     ▐                                 ▐                  ");	
+							//Muerte
+							
+								x=0;
+								y=0;	
+							
+						}	
+				}
+				else if(mov==4)
+				{
+					System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
+					System.out.println("╔══╗ ╔═══════════╗ 1: Izquierda 2:Abajo 3:Derecha 4:Arriba 0:Interactuar");
+					System.out.println("║  ║ ║           ║No hay nada con lo que interactuar :I");
+					System.out.println("║  ╚═╝           ╚");
+					System.out.println("║     @   "+key+"      █ ");
+					System.out.println("║      ╔═╗       ╔ ");
+					System.out.println("╚══════╝ ╚═══════╝"); 
+				        // Posiciones @ ║ @ @ @ @ @ @ @ @║	
+					x--;
+				}
+			}
 		
 	}
 	
