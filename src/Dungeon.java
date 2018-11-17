@@ -1336,6 +1336,8 @@ public class Dungeon {
 							x=0;
 							y=0;
 							//equisde
+							//Hola caracola
+							
 					}
 				}
 			}
