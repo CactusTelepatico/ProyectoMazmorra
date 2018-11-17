@@ -1334,7 +1334,8 @@ public class Dungeon {
 						//Muerte
 						
 							x=0;
-							y=0;	
+							y=0;
+							//lamao
 					}
 				}
 			}
