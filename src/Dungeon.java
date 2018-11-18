@@ -1850,6 +1850,7 @@ public class Dungeon {
 			while(x==4 && y==6)
 			{
 //				Let's do this
+				System.out.println("Pa eliminarlo");
 				in = new Scanner(System.in);
 				mov = in.nextInt();
 				if(mov<0 || mov>4)
