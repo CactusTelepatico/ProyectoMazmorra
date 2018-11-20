@@ -1849,8 +1849,240 @@ public class Dungeon {
 			}
 			while(x==4 && y==6)
 			{
-//				Let's do this
-				System.out.println("Pa eliminarlo");
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			//...
+			while(x==1 && y==7)
+			{
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			while(x==2 && y==7)
+			{
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			while(x==3 && y==7)
+			{
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			while(x==4 && y==7)
+			{
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			//...
+			while(x==1 && y==8)
+			{
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			while(x==2 && y==8)
+			{
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			while(x==3 && y==8)
+			{
+				in = new Scanner(System.in);
+				mov = in.nextInt();
+				if(mov<0 || mov>4)
+				{
+					
+				}
+				if(mov==0)
+				{
+					
+				}
+				if(mov==1)
+				{
+					
+				}
+				if(mov==2)
+				{
+					
+				}
+				if(mov==3)
+				{
+					
+				}
+				if(mov==4)
+				{
+					
+				}
+			}
+			while(x==4 && y==8)
+			{
 				in = new Scanner(System.in);
 				mov = in.nextInt();
 				if(mov<0 || mov>4)
